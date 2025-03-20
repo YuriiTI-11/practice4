@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: mysum
+Version: 0.1.0a1
+Summary: My integer sum calculator
+Home-page: 'TODO'
+Author: attr: mysum.__about__.__author__
+Author-email: user.name@google.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Arithmetic
+Requires-Python: ~=3.8
+Provides-Extra: test
+Requires-Dist: pytest==6.2.4; extra == "test"
+Requires-Dist: pytest-runner==5.3.1; extra == "test"
+Provides-Extra: build
+Requires-Dist: wheel==0.42.0; extra == "build"

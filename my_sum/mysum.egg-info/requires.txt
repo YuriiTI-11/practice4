@@ -1,0 +1,7 @@
+
+[build]
+wheel==0.42.0
+
+[test]
+pytest==6.2.4
+pytest-runner==5.3.1
