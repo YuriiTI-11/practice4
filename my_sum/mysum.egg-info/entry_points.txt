@@ -1,0 +1,2 @@
+[console_scripts]
+sum_ints = mysum.__main__:sum_ints
